@@ -19,8 +19,7 @@ const loadData = (options) => {
 const App = (props) => {
   let [photos, setPhotos] = useState([]);
   
-  // CHALLENGE:
-  // Change the query to one of your interests
+ 
   let [query, setQuery] = useState("agriculture");
   const queryInput = useRef(null);
 
