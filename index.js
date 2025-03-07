@@ -77,5 +77,5 @@ const App = (props) => {
   );
 };
 
-// CHALLENGE: add your own name and emoji to the website
+
 ReactDOM.render(<App name="Kibet" emoji="🚜"/>, document.getElementById("root"));
