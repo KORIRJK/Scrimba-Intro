@@ -23,7 +23,7 @@ const App = (props) => {
   let [query, setQuery] = useState("agriculture");
   const queryInput = useRef(null);
 
-  const numberOfPhotos = 24;
+  const numberOfPhotos = 20;
   const url =
     "https://api.unsplash.com/photos/random/?count=" +
     numberOfPhotos +
